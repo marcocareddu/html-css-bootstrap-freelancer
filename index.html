@@ -7,6 +7,8 @@
     <meta name="author" content="Class #100">
     <meta name="keywords" content="Bootstrap, responsive, 12 column">
     <link rel="icon" href="#" type="image/png">
+    <!-- FONT AWESOME -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'>
     <!-- BOOTSTRAP -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'>
     <link rel="stylesheet" href="./css/style.css" type="text/css">
@@ -26,13 +28,22 @@
     <!-- MAIN -->
     <main>
         <!-- JUMBOTRON -->
-        <section class="usr-bgc-primary">
+
+        <section class="usr-bgc-primary jumbotron text-white">
             <div class="container">
-                <div class="text-center">
-                    <div class="img usr-bgc-purple">IMMAGINE</div>
-                    <h1>Start</h1>
-                    <h2>Stella</h2>
-                    <h2>Lorem</h2>
+                <div class="text-center d-flex flex-column align-items-center py-4">
+                    <div class="img">
+                        <img class="img-fluid" src="./img/avatar.svg" alt="Avatar">
+                    </div>
+                    <div class="text-center py-4">
+                        <h1>START BOOTSTRAP</h1>
+                        <div class="d-flex justify-content-center align-items-center py-2">
+                            <div class="line border border-2 rounded-pill"></div>
+                            <div class="px-2"><i class="fa-solid fa-star fa-xl"></i></div>
+                            <div class="line border border-2 rounded-pill"></div>
+                        </div>
+                        <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
+                    </div>
                 </div>
             </div>
         </section>

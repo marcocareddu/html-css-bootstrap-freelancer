@@ -15,7 +15,8 @@
     background-color: purple;
 }
 
-.img {
+/* ! DA RIMUOVERE */
+.portfolio .img {
     height: 40px;
 }
 
@@ -23,6 +24,17 @@
 header {
     height: 80px;
     color: white;
+}
+
+/* JUMBOTRON SECTION */
+.jumbotron .img {
+    height: 200px;
+    width: 200px;
+}
+
+.line {
+    color: white;
+    width: 25%;
 }
 
 /* FOOTER */
