@@ -23,6 +23,15 @@
     width: 80px;
 }
 
+.line-sm {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* HEADER */
 header {
     height: 80px;
