@@ -15,15 +15,17 @@
     background-color: purple;
 }
 
-/* ! DA RIMUOVERE */
-.portfolio .img {
-    height: 40px;
+.usr-color-tertiary {
+    color: #2c3e50;
+}
+
+.line {
+    width: 80px;
 }
 
 /* HEADER */
 header {
     height: 80px;
-    color: white;
 }
 
 /* JUMBOTRON SECTION */
@@ -32,9 +34,9 @@ header {
     width: 200px;
 }
 
-.line {
-    color: white;
-    width: 25%;
+/* PORTFOLIO SECTION*/
+.portfolio img {
+    width: 100%;
 }
 
 /* FOOTER */
