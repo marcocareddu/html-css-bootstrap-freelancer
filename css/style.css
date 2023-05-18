@@ -16,7 +16,7 @@
 }
 
 .usr-color-tertiary {
-    color: #2c3e50;
+    color: #3a546d;
 }
 
 .line {
@@ -37,10 +37,36 @@ a {
     color: white;
 }
 
+/* ! da controllare */
+#portfolio .border {
+    border-color: #3a546d;
+}
+
 /* JUMBOTRON SECTION */
 #jumbotron .img {
     height: 200px;
     width: 200px;
+}
+
+/* FORM SECTION */
+#contact .form-control {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    border-color: #3a546d;
+}
+
+#contact ::placeholder {
+    color: #3a546d;
+    font-weight: 500;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #3a546d;
+}
+
+.btn:hover {
+    background-color: #1abc9c;
 }
 
 /* INFO SECTION */
