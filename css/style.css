@@ -61,7 +61,7 @@ a {
 
 .form-control:focus {
     box-shadow: none;
-    border-color: #3a546d;
+    border-color: #ced4da;
 }
 
 .btn:hover {
