@@ -32,13 +32,13 @@ a {
     color: white;
 }
 
-/* HEADER */
-header, footer {
-    height: 80px;
+/* REPLACE DEFAULT COLOR */
+.nav-link:hover, .nav-link {
+    color: white;
 }
 
 /* JUMBOTRON SECTION */
-.jumbotron .img {
+#jumbotron .img {
     height: 200px;
     width: 200px;
 }
@@ -47,4 +47,9 @@ header, footer {
 .social {
     height: 40px;
     width: 40px;
+}
+
+/* FOOTER */
+footer {
+    height: 80px;
 }
