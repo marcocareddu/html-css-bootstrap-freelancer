@@ -52,7 +52,6 @@ a {
 #contact .form-control {
     border-radius: 0;
     border-width: 0 0 1px 0;
-    border-color: #3a546d;
 }
 
 #contact ::placeholder {
