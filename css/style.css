@@ -33,7 +33,7 @@ a {
 }
 
 /* HEADER */
-header {
+header, footer {
     height: 80px;
 }
 
@@ -47,9 +47,4 @@ header {
 .social {
     height: 40px;
     width: 40px;
-}
-
-/* FOOTER */
-footer {
-    height: 80px;
 }
