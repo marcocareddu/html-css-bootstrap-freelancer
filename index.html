@@ -71,9 +71,9 @@
             <div class="container-md text-center py-5">
                 <h4>PORTFOLIO</h4>
                 <div class="d-flex justify-content-center align-items-center py-2">
-                    <div class="line border border-2 rounded-pill border-dark"></div>
+                    <div class="line rounded-pill"></div>
                     <div class="px-2"><i class="fa-solid fa-star fa-xl"></i></div>
-                    <div class="line border border-2 rounded-pill border-dark"></div>
+                    <div class="line rounded-pill"></div>
                 </div>
 
                 <div class="row gy-4 py-3">            
@@ -119,7 +119,7 @@
                         <p>Whether you're a student looking to showcase your work, a professional looking to attract cliens, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>                        
                     </div>
                 </div>
-                <a href="#" class="text-white fw-bold btn usr-bgc-primary border rounded-3 border-white p-2"><i class="fa-solid fa-download"></i> Download</a>
+                <button type="button" class="text-white fw-bold btn usr-bgc-primary border rounded-3 border-white p-2"><i class="fa-solid fa-download"></i> Download</button>
             </div>
         </section>
 
@@ -128,14 +128,13 @@
             <div class="container-md py-4">
                 <h2 class="text-center">CONTACT ME</h2>
                 <div class="d-flex justify-content-center align-items-center py-2">
-                    <div class="line-sm border border-2 rounded-pill border-dark"></div>
-                    <div class="px-2"><i class="fa-solid fa-star fa-xl"></i></div>
-                    <div class="line-sm border border-2 rounded-pill border-dark"></div>
+                    <div class="line-sm rounded-pill"></div>
+                    <div class="px-2"><i class="fa-solid fa-star fa-xl usr-color-tertiary"></i></div>
+                    <div class="line-sm rounded-pill"></div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-7">
-
-
+                        <!-- FORM -->
                         <form>
                             <div class="mb-3">
                               <input type="text" class="form-control ps-0" placeholder="Name">
@@ -154,8 +153,7 @@
                             </div>
 
                             <button type="submit" class="border rounded-3 text-white fw-bold btn usr-bgc-primary">Send</button>
-                          </form>
-
+                        </form>
 
                     </div>
                 </div>
@@ -164,7 +162,7 @@
 
         <!-- INFO SECTION -->
         <section class="info usr-bgc-tertiary text-white">
-            <div class="container">
+            <div class="container py-4">
                 <div class="row justify-content-center text-center align-items-center">
                     <div class="col col-md-3 py-3">
                         <h5>LOCATION</h5>
@@ -173,27 +171,34 @@
                     <div class="col-12 col-md-3 py-3">
                         <h4 class="py-2">AROUND THE WEB</h4>
 
-                        <div class="d-flex align-items-center justify-content-center">
-                            <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
-                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            </div>
-
-                            <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
-                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                            </div>
-
-                            <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
-                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            </div>
-
-                            <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
-                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            </div>
+                        <div>
+                            <ul class="list-inline d-flex align-items-center justify-content-center justify-content-md-evenly">
+                                <li>
+                                    <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social border border-white rounded-circle d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </li>                             
+                            </ul>
                         </div>
                     </div>
                     <div class="col col-md-3 py-3">
-                        <h4>ABOUT FREELANCER</h4>
-                        <h5>Freelance is a free to use, open source Bootstrap theme created by Sart Bootstrap.</h5>
+                        <h5>ABOUT FREELANCER</h5>
+                        <h6>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</h6>
                     </div>      
                 </div>
             </div>
@@ -201,7 +206,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="usr-bgc-secondary d-flex justify-content-center align-items-center text-white">
+    <footer class="usr-bgc-secondary d-flex justify-content-center align-items-center text-white py-4">
         <p>Copyright &copy; Your Website 2023</p>
     </footer>
 

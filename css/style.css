@@ -27,6 +27,11 @@
     width: 50px;
 }
 
+.line, .line-sm {
+    height: 4px;
+    background-color: #3a546d;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -35,11 +40,6 @@ a {
 /* REPLACE DEFAULT COLOR */
 .nav-link:hover, .nav-link {
     color: white;
-}
-
-/* ! da controllare */
-#portfolio .border {
-    border-color: #3a546d;
 }
 
 /* JUMBOTRON SECTION */
@@ -73,9 +73,4 @@ a {
 .social {
     height: 40px;
     width: 40px;
-}
-
-/* FOOTER */
-footer {
-    height: 80px;
 }
